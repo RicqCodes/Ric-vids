@@ -1,6 +1,5 @@
 import moment from 'moment';
 import React from 'react';
-import { decodeEntity } from 'html-entities';
 
 const VideoItem = ({ onVideoSelect, video }) => {
   console.log(video);
